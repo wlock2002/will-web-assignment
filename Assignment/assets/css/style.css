@@ -1,0 +1,57 @@
+h1{
+    color:white;
+    font-size: 700%;
+    /*text-shadow:
+    0 1px #e5472c,
+    -1px 0 #d75e19,
+    -1px 2px #e5472c,
+    -2px 1px #d75e19,
+    -2px 3px #d75e19,
+    -3px 2px #d75e19,
+    -3px 4px #e5472c,
+    -4px 3px #d75e19,
+    -4px 5px #e5472c,
+    -5px 4px #d75e19,
+    -5px 6px #e5472c,
+    -6px 5px #d75e19,
+    -6px 7px #e5472c,
+    -7px 6px #d75e19,
+    -7px 8px #e5472c,
+    -8px 7px #d75e19;
+    */
+
+    text-shadow:
+    0 1px #808d93,
+    -1px 0 #cdd2d5,
+    -1px 2px #808d93,
+    -2px 1px #cdd2d5,
+    -2px 3px #808d93,
+    -3px 2px #cdd2d5,
+    -3px 4px #808d93,
+    -4px 3px #cdd2d5,
+    -4px 5px #808d93,
+    -5px 4px #cdd2d5,
+    -5px 6px #808d93,
+    -6px 5px #cdd2d5,
+    -6px 7px #808d93,
+    -7px 6px #cdd2d5,
+    -7px 8px #808d93,
+    -8px 7px #cdd2d5;
+    
+}
+
+body{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    background-color: black;
+    background-image: url("../img/porsche.jpg");   
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+    
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
