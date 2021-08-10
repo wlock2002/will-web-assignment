@@ -1,7 +1,7 @@
 h1{
     display: flex;
     justify-content: flex-start;
-    background-color: rgba(255, 255, 255, 0.63);
+    background-color: rgba(92, 92, 92, 0.795);
     color:rgb(255, 255, 255);
     font-size: 300%;
     padding: 2rem;
@@ -44,6 +44,8 @@ h1{
     -7px 8px #808d93,
     -8px 7px #cdd2d5;*/
     text-shadow: 10px 10px 0 #ffd217, 20px 20px 0 #5ac7ff;
+    -webkit-text-stroke-width: 0.05rem;
+    -webkit-text-stroke-color: black;
 
 
     
