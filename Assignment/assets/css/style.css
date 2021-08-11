@@ -1,12 +1,13 @@
 h1{
     display: flex;
     justify-content: flex-start;
-    background-color: rgba(92, 92, 92, 0.795);
+    
     color:rgb(255, 255, 255);
     font-size: 300%;
-    padding: 2rem;
+    padding: 2rem 0 2rem 4rem;
     margin: 0;
     border: 0;
+    
     /*text-shadow:
     0 1px #e5472c,
     -1px 0 #d75e19,
@@ -43,9 +44,9 @@ h1{
     -7px 6px #cdd2d5,
     -7px 8px #808d93,
     -8px 7px #cdd2d5;*/
-    text-shadow: 10px 10px 0 #ffd217, 20px 20px 0 #5ac7ff;
-    -webkit-text-stroke-width: 0.05rem;
-    -webkit-text-stroke-color: black;
+    /*text-shadow: 4px 4px 0 #ffd217, 8px 8px 0 #5ac7ff;*/
+    text-shadow: -1px 1px 1px #ffd217, -2px 2px 0 #ffd217, -3px 3px 0 #ffd217, -4px 4px 0 #ffd217, -5px 5px 0 #ffd217, -6px 6px 0 #ffd217, -7px 7px 7px black;
+
 
 
     
@@ -54,21 +55,27 @@ h1{
 body{
     
     font-family: 'Bebas Neue', cursive;
-    background-color: black;
+
     background-image: url("../img/pontus-wellgraf-vvme8J-gJVE-unsplash.jpg");   
     background-size: 100%;
     background-repeat: no-repeat;
+    background-blend-mode: darken ;
     
 
 }
 
-div{
-    color: black;
+#container{   
+    padding: 2rem;
+}
+
+.heads{
+    
+    color: rgb(255, 255, 255);
     font-size: 1000%;
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 0 0.5rem 4rem;
-    text-shadow:
+    padding: 0.8rem 0 0.8rem 4rem;
+    /*text-shadow:
     0 1px #808d93,
     -1px 0 #cdd2d5,
     -1px 2px #808d93,
@@ -84,7 +91,9 @@ div{
     -6px 7px #808d93,
     -7px 6px #cdd2d5,
     -7px 8px #808d93,
-    -8px 7px #cdd2d5;
+    -8px 7px #cdd2d5;*/
+    text-shadow: -1px 1px 1px #ffd217, -2px 2px 0 #ffd217, -3px 3px 0 #ffd217, -4px 4px 0 #ffd217, -5px 5px 0 #ffd217, -6px 6px 0 #ffd217, -7px 7px 7px black;
+
 }
 /*ul{
     display: flex;
